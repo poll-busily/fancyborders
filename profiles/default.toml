@@ -1,0 +1,25 @@
+[author]
+name = "Paul Beesley Landscape Photography"
+
+[border]
+color = "#FFFFFF"
+bottom_scale = 0.025
+top_side_scale = 0.01375
+
+[font]
+family = "DejaVu Sans"
+name = "DejaVu Sans Oblique"
+color = "#898989"
+weight = 10 # Not all fonts respond to weight
+scale_factor_title = 0.006 # Font size is relative to the overall image dimensions
+scale_factor_metadata = 0.0045
+
+[resize]
+enable = false
+megapixels = 60
+
+[output]
+directory = "C:\\Photography\\Export\\Border Test"
+suffix = "_b"
+codec = "jpeg"
+quality = "99"
