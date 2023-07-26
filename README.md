@@ -1,4 +1,4 @@
-# Fancy Borders
+#  Fancy Borders 🖼️📷✨
 A handy little tool for creating nice, uniform, scalable photo borders with text. Powered by Python with ImageMagick!
 
 ## Features
