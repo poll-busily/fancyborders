@@ -26,12 +26,12 @@ Grab ImageMagick for your platform first as it's needed for the Wand library bin
 3. Install required Python packages: `pip3 install -r ./requirements.txt`. Note that `pip3` might just be `pip` on your system.
 4. Run a minimal command: `python .\border.py "C:\\Photography\\Export\\Full Border\\img014.jpg" "My Sample Caption" 2023`
 
-Note that you will always need to provide at least the input file path, the image title and the year the image was taken. These arguments are positional. You can add the `--configs` parameter to run a custom configuration, or several at once like: `--configs default myconfig1 myconfig2`.
+Note that you will always need to provide at least the input file path, the image title and the year the image was taken. These arguments are positional. You can add the `--profiles` parameter to run a custom configuration, or several at once like: `--profiles default profile1 profile2`.
 
 ## Example Output
 ```
-(.venv) PS C:\Photography\scripts> python .\border.py "C:\\Photography\\Export\\Full Border\\img014.jpg" "My Sample Caption" 2023 --configs default                 
-Running config: default
+(.venv) PS C:\Photography\scripts> python .\border.py "C:\\Photography\\Export\\Full Border\\img014.jpg" "My Sample Caption" 2023 --profiles default                 
+Running profile: default
         Input image:C:\Photography\Export\Full Border\img014.jpg
         Output image:C:\Photography\Export\Full Border\img014_b.jpg
         Input resolution: 6499x4874
