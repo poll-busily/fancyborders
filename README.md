@@ -11,6 +11,9 @@ A handy little tool for creating nice, uniform, scalable photo borders with text
 - Supports exporting to jpeg, png and tiff formats
 - Selectable JPEG export quality
 
+## Example Output
+![](./preview.jpg)
+
 ## Requirements
 - Python 3.10+
 - ImageMagick
